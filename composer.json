@@ -1,9 +1,10 @@
 {
     "name": "quickshot/common",
+    "version": "dev-master",
     "type": "library",
     "description": "Slim 3 Basic Model View Controller Architecture",
     "keywords": ["slimframework"],
-    "homepage": "https://github.com/marciobarroso/sbmvc",
+    "homepage": "https://github.com/marciobarroso/quickshot",
     "license": "MIT",
     "authors": [
         {
