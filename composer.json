@@ -1,0 +1,30 @@
+{
+    "name": "quickshot/common",
+    "type": "library",
+    "description": "Slim 3 Basic Model View Controller Architecture",
+    "keywords": ["slimframework"],
+    "homepage": "https://github.com/marciobarroso/sbmvc",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marcio Barroso",
+            "email": "marciobarroso@gmail.com",
+            "homepage": "https://github.com/marciobarroso"
+        }
+    ],
+    "require": {
+        "slim/slim": "^3.0",
+        "slim/twig-view": "^2.0",
+        "slim/flash": "^0.1.0",
+        "monolog/monolog": "^1.13",
+        "symfony/translation": "2.7.3",
+        "symfony/twig-bridge": "2.7.3",
+        "phpmailer/phpmailer": "~5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "QuickShot\\": "src/quickshot",
+            "QuickShot\\Common\\": "src/quickshot/common",
+        }
+    }
+}
