@@ -16,15 +16,16 @@
         "slim/slim": "^3.0",
         "slim/twig-view": "^2.0",
         "slim/flash": "^0.1.0",
-        "monolog/monolog": "^1.13",
-        "symfony/translation": "2.7.3",
-        "symfony/twig-bridge": "2.7.3",
-        "phpmailer/phpmailer": "~5.2"
+        "monolog/monolog": "^1.13"
     },
     "autoload": {
         "psr-4": {
             "QuickShot\\": "src/quickshot",
             "QuickShot\\Common\\": "src/quickshot/common",
+            "QuickShot\\Common\\Action": "src/quickshot/common/action",
+            "QuickShot\\Common\\Enum": "src/quickshot/common/enum",
+            "QuickShot\\Common\\Middleware": "src/quickshot/common/middleware",
+            "QuickShot\\Common\\Model": "src/quickshot/common/model"
         }
     }
 }
