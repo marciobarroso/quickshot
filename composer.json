@@ -23,10 +23,10 @@
         "psr-4": {
             "QuickShot\\": "src/quickshot",
             "QuickShot\\Common\\": "src/quickshot/common",
-            "QuickShot\\Common\\Action": "src/quickshot/common/action",
-            "QuickShot\\Common\\Enum": "src/quickshot/common/enum",
-            "QuickShot\\Common\\Middleware": "src/quickshot/common/middleware",
-            "QuickShot\\Common\\Model": "src/quickshot/common/model"
+            "QuickShot\\Common\\Action\\": "src/quickshot/common/action",
+            "QuickShot\\Common\\Enum\\": "src/quickshot/common/enum",
+            "QuickShot\\Common\\Middleware\\": "src/quickshot/common/middleware",
+            "QuickShot\\Common\\Model\\": "src/quickshot/common/model"
         }
     }
 }
