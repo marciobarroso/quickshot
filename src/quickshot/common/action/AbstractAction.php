@@ -28,12 +28,16 @@ abstract class AbstractAction extends AbstractComponent {
 		return $this->policies;
 	}
 
-	public function getPathFor($name) {
-		return $this->router->pathFor($name);
+	public function getPathFor($name, $data = [], $queryString = []) {
+		return $this->router->pathFor($name, $data, $queryString);
 	}
 
 	public function redirect(Response $response, $routeName) {
 		$uri = $this->router->pathFor($routeName);
 		return $response->withRedirect($uri);   
+	}
+
+	public function getRouter() {
+		return $this->router;
 	}
 }
