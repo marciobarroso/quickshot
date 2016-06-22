@@ -1,6 +1,6 @@
 {
     "name": "quickshot/common",
-    "version": "dev-master",
+    "version": "0.0.1",
     "type": "library",
     "description": "Slim 3 Basic Model View Controller Architecture",
     "keywords": ["slimframework"],
